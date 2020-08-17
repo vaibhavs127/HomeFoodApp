@@ -1,0 +1,221 @@
+/* .head{
+    background-color:  #031d01;
+    width: 100%;
+    height: 150px;
+    padding: 24px;
+}
+.name{
+    color:white;
+    position: absolute;
+    left:40%;
+}
+.img{
+    width: 15%;
+    height: 15%;
+    border-radius: 5px;
+    position: absolute;
+    left: 20%;
+    padding: 5px;
+    margin-top: 20px;
+}
+.cost{
+    color :white;
+    position: absolute;
+    left: 40%;
+    top:120px;
+
+}
+.time{
+    color :white;
+    position: absolute;
+    left: 40%;
+    top:150px;
+}
+/* Side bar */
+.sidenav {
+    
+    width: 200px; /* Set the width of the sidebar */
+    position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 270px; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  /* list section */
+
+  Link {
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+  } */
+  .headerContainer{
+    /* float: left; */
+    width: 60%;
+    /* margin-top: 10%; */
+    
+}
+.header{
+    width: 100%;
+    margin-top: -220px;
+    height: 220px;
+    color: white;
+    background-color: rgb(54, 49, 49);
+    /* position: fixed; */
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    border-radius: 1px;
+}
+.SearchVegFavContainer{
+    position: absolute;
+    left: 43%;
+    top: 88%;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    height: 20px;
+    width: 40%;
+    justify-content: space-between;
+}
+.SearchBar{
+    width: 30%;
+
+}
+#SearchDishes{
+    width: 100%;
+    height: 30px;
+    background-color: #209d7d;
+    color:white;
+    font-weight:700;
+}
+::placeholder
+{
+  color:black;
+}
+.Vegbox{
+    background-color: #209d7d;
+    width: 30%;
+    height:40px;
+    /* padding: 2px; */
+    justify-content: center;
+    align-self: center;
+    color: black;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight:700;
+    
+}
+#vegOnly{
+    font-size: 15px;
+    width: 10%;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    /* padding: 5px; */
+    
+}
+.Favourate{
+    background-color: #209d7d;
+    width: 22%;
+    color: black;
+    align-self: center;
+    border: 1px solid black;
+    font-weight:700;
+    margin-top:15px;
+}
+
+
+#restImage{
+    /* position: relative; */
+    width:13%;
+    /* height: 15%; */
+    float: left;
+    margin-top: 2%;
+    margin-left: 8%;
+}
+.nameOfRest{
+    float: left;
+    width: 35%;
+    font-size: 150%;
+    margin-left: 1%;
+    margin-top: 2%;
+    /* border: 1px solid white; */
+}
+.title{
+    /* float: left; */
+    font-size: 60%;
+    flex-wrap: wrap;
+    display: grid;
+    /* justify-content:en; */
+    color: white;
+    /* border: 1px solid white; */
+}
+.ratingTimeCost{
+    display: flex;
+}
+
+
+
+@media screen and (max-width:400px){
+    .header{
+        /* background-color: red; */
+        height: 100px;
+        position: fixed;
+        margin-top: 0px;
+/* 
+        width: 100%;
+        margin-top: -220px;
+        height: 220px;
+        color: white;
+        background-color: gray;
+        position: fixed; */
+    }
+
+    #restImage{
+        width:20%;
+        /* height: 15%; */
+        float: left;
+        margin-top: 3%;
+        margin-left: 8%;
+    }
+
+    .nameOfRest{
+        float: left;
+        width: 90%;
+        font-size: 100%;
+        margin-left: 30%;
+        margin-top: -20%;
+        /* border: 1px solid white; */
+    }
+    
+    
+}

@@ -1,0 +1,58 @@
+/* body
+{
+    background:#e86f6f;
+} */
+.MainContainer{
+    color: black;
+    /* position: absolute; */
+    /* background-color: purple; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 220px;
+    background:#e86f6f;
+    /* background-color: burlywood; */
+    
+} 
+.cuisineContainer{
+    position: relative;
+    /* z-index: -1; */
+    /* position: absolute; */
+    background-color: pink;
+    border: 5px solid #209d7d;
+    left: -2%;
+    width: 350%;
+    height: 462px;
+    overflow: scroll;
+    border-radius:10px;
+}
+.CategoryCart{
+    display: flex;
+    width: 150%;
+    /* position: relative; */
+    /* position: absolute; */
+    flex-direction: column;
+}
+
+@media screen and (max-width:400px){
+    .MainContainer{
+        color: black;
+        position: absolute;
+        /* background-color: purple; */
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin: auto;
+        z-index: -1;
+        margin-top: 100px;
+        /* border: 2px solid palevioletred; */
+    }
+
+    .CategoryCart{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+}

@@ -1,0 +1,36 @@
+.cartContainer{
+    display: flex;
+    flex-direction: column;
+    /* overflow-y: scroll; */
+}
+.cartItems{
+    display: flex;
+    margin: auto;
+    /* border: 1px solid rgb(19, 8, 8); */
+    font-size: 15px;
+    width: 90%;
+    justify-content: space-between;
+    /* color: black; */
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+#itemName{
+ /* border: 2px solid black; */
+ align-items: center;
+ font-size: 20px;
+}
+#unit{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: black;
+    padding: 3px;
+    width: 8%;
+    color: white;
+}
+#price{
+/* border: 1px solid white; */
+align-items: center;
+color: #fd6768;
+margin-left: 75%;
+margin-bottom: 10px;
+}

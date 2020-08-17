@@ -1,0 +1,103 @@
+.SearchVegFavContainer{
+    position: absolute;
+    left: 20%;
+    top: 15px;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    height: 20px;
+    width: 60%;
+    z-index: 5;
+    justify-content: space-between;
+}
+.SearchBar{
+    background-color: white;
+    width: 30%;
+}
+#SearchDishes{
+    width: 100%;
+    height: 20px;
+    height:30px;
+}
+.Vegbox{
+    width: 30%;
+    /* padding: 2px; */
+    justify-content: center;
+    align-self: center;
+    color: black;
+    height: 35px;
+    border: 1px solid black;
+    margin-top:16px;
+}
+#vegOnly{
+    font-size: 15px;
+    /* padding: 5px; */
+    height: 25px;
+    padding:3px;
+}
+.Favourate{
+    width: 22%;
+    height: 25px;
+    color: black;
+    align-self: center;
+    border: 1px solid black;
+}
+
+
+.cuisine{
+    background-color: rgba(245, 245, 247, 0.884);
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    /* flex-flow: wrap; */
+    width: 100%;
+}
+.selectedCuisine{
+    background-color: rgba(245, 245, 247, 0.884);
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    /* flex-flow: wrap; */
+    width: 100%;
+}
+#catagoryButton{
+    display: none;
+}
+
+@media screen and (max-width:400px){
+    .cuisine{
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: wrap;
+        width: 100%;
+        /* height: 40%; */
+        /* margin-top: 1%; */
+        /* margin-right: 0%; */
+        margin-left: 0%;
+        /* ; */
+        /* justify-content: space-around; */
+        /* border: 1px solid black; */
+        
+    }   
+    #catagoryButton{
+        position: absolute;
+        position: fixed;
+        width: 90px;
+        margin-top: 40%;
+        /* z-index: 3; */
+        display: block;
+        height: 20px;
+        /* display: inline; */
+    }
+    #cartButton{
+        position: absolute;
+        position: fixed;
+        width: 90px;
+        margin-top: 50%;
+        /* z-index: 3; */
+        display: block;
+        height: 20px;
+        /* display: inline; */
+    }
+}

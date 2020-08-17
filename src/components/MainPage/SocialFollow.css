@@ -1,0 +1,30 @@
+
+a.Facebook
+{
+    color:#000;    
+}
+a.whatsapp
+{
+    color:#000;    
+}
+a.Insta
+{
+    color:#000;    
+}
+.social
+{
+    position:fixed;
+    top:660px;
+    left:67px;
+}
+.social ul li
+{
+display:inline-block;
+padding:18px;
+
+}
+.social ul li:hover
+{
+    transform:translatey(-5px);
+    background-color:#fff1dc;
+}

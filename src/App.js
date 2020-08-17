@@ -1,26 +1,48 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import { 
+  BrowserRouter,
+  Switch,
+  Route} 
+from 'react-router-dom';
+import Login from './components/Login/Login';
+import Registration from './components/Registration/Registration';
+import MainPage from './components/MainPage/MainPage';
+import SearchForm from './components/SearchForm/SearchForm';
+import SearchResults from "./Page/SearchResults/SearchResults";
+import Payment from "./components/Payment/Payment";
 import './App.css';
+import HotelInfo from "./components/Header/HotelInfo";
+import Body from "./components/Body/Body";
+import {Provider} from 'react-redux';
+import store from './Redux/Store/Store';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component{
+
+  render(){
+    return(
+      <BrowserRouter>
+      <Provider store={store}>
+          
+      <div>
+          <Switch>
+            <Route exact path="/" component={MainPage} /> 
+            <Route path="/Login" component={Login} /> 
+            <Route path="/Registration" component={Registration} >
+            <Registration /></Route>
+            <Route path="/SearchForm" component={SearchForm} /> 
+            <Route path="/search">
+            <SearchResults /></Route>
+            <Route path="/Payment" exact component={Payment}>
+            <Payment/></Route>
+            <Route path="/hotel/:id" component={Body} />
+            <Body/>
+            <Route path="/Body" component={Body} />                                                         
+          </Switch> 
+      </div>
+      </Provider>
+    </BrowserRouter>
+    );
+  }
 }
 
 export default App;

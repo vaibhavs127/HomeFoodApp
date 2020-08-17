@@ -1,0 +1,30 @@
+.cardDesign{
+        
+        width:443px;
+        margin-left: 15px;
+        margin-top: 50px;
+        display: inline-block;
+        height:200px;
+        display: inline-block;
+        
+}
+
+.button{
+        float: right;
+}
+
+.logo{
+        width:100px;
+        height: auto;
+        float: left;
+        margin-right:10px;
+}
+
+.cvv{
+        margin:10px;
+        height:40px;
+        width: 100px;
+        margin-left: 80px;
+        border-radius: 5px;
+        border: solid black 1px;
+}

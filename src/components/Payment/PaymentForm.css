@@ -1,0 +1,21 @@
+.cardform{
+        
+        display: inline;
+        padding : 20px;
+        text-align: center;
+
+                
+}
+.Heading{
+        text-align: center;
+
+}
+.form{
+        padding:20px;
+        display: block;
+}
+
+.input{
+        width: 200px;
+        margin:10px;
+}

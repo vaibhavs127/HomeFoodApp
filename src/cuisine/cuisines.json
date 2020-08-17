@@ -1,0 +1,74 @@
+[
+     {
+        "id":1,
+        "Name": "Biryani",
+        "Price": 300,
+        "unit":1,
+        "VegOrNonVeg": "Non-veg",
+        "Info": "for 2 peoples",
+        "Image": "https://st2.depositphotos.com/3147737/5188/i/950/depositphotos_51888195-stock-photo-hyderabadi-biryani-a-popular-chicken.jpg"
+      },
+      {
+        "id":2,
+        "unit":1,
+        "Name": "Paneer tikka",
+        "Price": 160,
+        "VegOrNonVeg": "Veg",
+        "Info": "for 2 peoples",
+        "Image": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Neha_Mathur/Achari_Paneer_Tikka_Recipe_Party_Food.JPG"
+      },
+       {
+        "id":3,
+        "unit":1,
+        "Name": "Dal tadka",
+        "Price": 140,
+        "VegOrNonVeg": "Veg",
+        "Info": "for 2 peoples",
+        "Image": "https://www.whiskaffair.com/wp-content/uploads/2018/01/Dal-tadka-5-500x500.jpg"
+      },
+       {
+        "id":4,
+        "unit":1,
+        "Name": "pizza",
+        "Price": 200,
+        "VegOrNonVeg": "Veg",
+        "Info": "for 2 peoples",
+        "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSz-eJmvQnM5YyC8UwvvIr56hMyQr0Wa6vppA&usqp=CAU"
+      },
+     {
+        "id":5,
+        "unit":1,
+        "Name": "Chicken masala",
+        "Price": 400,
+        "VegOrNonVeg": "Non-veg",
+        "Info": "for 4 peoples",
+        "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSfxlT4bD95kM6ClFBDwjVbWTSX7-LIWN6_1A&usqp=CAU"
+      },
+       {
+        "id":6,
+        "unit":1,
+        "Name": "Chicken handi",
+        "Price": 220,
+        "VegOrNonVeg": "Non-veg",
+        "Info": "for 4 peoples",
+        "Image": "https://hamariweb.com/recipes/images/recipeimages/9922.jpg"
+      },
+       {
+        "id":7,
+        "unit":1,
+        "Name": "Plain rice",
+        "Price": 120,
+        "VegOrNonVeg": "Veg",
+        "Info": "for 2 peoples",
+        "Image": "https://lh3.googleusercontent.com/proxy/foa5k2FwkUS5MS1XDbNcee1hZE5R9FP22ECoJbmDLqLokuK2tt60JjZ_6ocM1bcLkNq34uoB-BJfDpmH8WFK1Ru1oz0jzfh5hjZDTWwl69P-Xl7scebw02yniD49XYTK"
+      },
+       {
+        "id":8,
+        "unit":1,
+        "Name": "Chicken fry",
+        "Price": 180,
+        "VegOrNonVeg": "Non-veg",
+        "Info": "for 4 peoples",
+        "Image": "https://www.thefooddictator.com/wp-content/uploads/2019/09/andhrachicken.jpg"
+      }
+]

@@ -1,0 +1,24 @@
+.navbar{
+        
+        background: transparent;
+        color:white;
+
+}
+
+.btn{
+        border: solid whitesmoke 1px;
+        background-color: #1f9f7c;
+        color:white;
+        padding:10px;
+        margin-left:10px;
+        
+}
+
+.btn:hover{
+        background-color: #fd6768;
+        
+}
+
+.title{
+        color:black !important;
+}

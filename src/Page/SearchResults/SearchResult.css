@@ -1,9 +1,35 @@
-body
+/* body
 {
 background: #1f9f7c;
 }
 
-.List
+#all{
+  display: inline-flex;
+  display: block;
+  padding: 10%;
+  
+}
+
+#user:hover{
+  border: 1px solid orangered;
+}
+
+img{
+  height: auto;
+  width: 100%;
+
+}
+
+.card:hover{
+  border:2px solid  orangered;
+}
+#mar{
+  margin-right: 5%;
+  margin-left: 10%;
+}
+/* my code end */
+
+/* .List
 {
   width: 75%;
   padding: 30px;
@@ -12,10 +38,10 @@ background: #1f9f7c;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 50px;
   list-style-type: none;
-}
+} */
 
 
-.ListItemWrapper
+/* .ListItemWrapper
 {
   padding: 16px;
   border: 3px solid yellow;
@@ -33,5 +59,4 @@ background: #1f9f7c;
   left: 0;
   bottom: 0;
   right: 0;
-}
-
+} */

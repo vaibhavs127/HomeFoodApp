@@ -4,9 +4,6 @@ background: #1f9f7c;
 
 /* LIST SECTION */
 
-.List {
-
-}
 
 .ListItemWrapper {
   width: 60%;
@@ -25,6 +22,12 @@ background: #1f9f7c;
   display: flex;
   justify-content: center;
   overflow: hidden;
+}
+
+.hover1:hover
+{
+  background-color: #DDDDDD;
+  box-shadow: 0 0.3px 0.9px rgba(0, 0, 0, .12), 0 1.6px 3.6px rgba(0, 0, 0, .12);
 }
 
 @media (max-width: 599px) {
@@ -50,7 +53,7 @@ background: #1f9f7c;
   transform: scale(1);
 }
 
-.ListItem:hover {
+#img:hover {
     background-color: #DDDDDD;
     box-shadow: 0 0.3px 0.9px rgba(0, 0, 0, .12), 0 1.6px 3.6px rgba(0, 0, 0, .12);
 }

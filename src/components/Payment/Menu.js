@@ -71,9 +71,9 @@ class Menu extends Component{
                         swal(`You Delivery Address: ${value},
                                 title: "Your order will be delivered on your address",
                                 text: "Thank You",
-                                Order Details:"${itemName}",
-                                Bill Details:"",
-                                Final Payment:""`);
+                                Order Details:"Your order no is 12211221",
+                                Bill Details:"RS: 300",
+                                Final Payment:"RS: 300"`);
                         // swal({icon:"success"});
                                 
                 });

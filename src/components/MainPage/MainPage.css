@@ -2,6 +2,7 @@
 padding:0px;
 margin:0px;
 box-sizing:border-box;
+
 }
 .MainImg
 {
@@ -9,14 +10,15 @@ box-sizing:border-box;
     height:768px;
     background-image: url(../../Images/food2.jpg);
     background-size:cover;
-    background-attachment:fixed;
+    overflow-x:hidden;
+    
 }
 
 .NavBar
 {
     width:100%;
     padding: 20px;
-    position:fixed;
+    position:absolute;
     top:0px;
     transition:.5s;
     margin-left:350px;
@@ -32,7 +34,7 @@ box-sizing:border-box;
     font-family:sans-serif;
     cursor:pointer;   
     margin-left:50px;
-    position:fixed;
+    position:absolute;
     top:0px;
 }
 
@@ -65,7 +67,7 @@ box-sizing:border-box;
     height:45px;
     font-size:16px;
     text-align:center;
-    position:fixed;
+    position:absolute;
     top:580px;
     left:80px;
     padding:10px;
@@ -86,7 +88,7 @@ box-sizing:border-box;
     font-size:16px;
     font-weight:700;
     text-align:center;
-    position:fixed;
+    position:absolute;
     top:26px;
     left:800px;
     padding:5px;

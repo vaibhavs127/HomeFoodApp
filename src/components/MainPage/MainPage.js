@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import SocialFollow from './SocialFollow';
+import MoreInfo from './MoreInfo';
 import swal from 'sweetalert';
 import './MainPage.css';
 
@@ -17,6 +18,7 @@ class MainPage extends Component {
 
     render() {
         return (
+            <div>
             <div className="MainImg">
                     <h3 className="Header">Home Food</h3>
                 <div className="NavBar">
@@ -29,7 +31,14 @@ class MainPage extends Component {
                     <h3 className="HotelBtn" onClick={this.login}>Check Out Hotels</h3> 
                     <Link className="SignIn" to="/Login">Login</Link>    
                 <SocialFollow />
+                
             </div> 
+            <div>
+                <img src={require('../../Images/paymentback.jpg')} style={{backgroundSize:"cover",weight:"9%",height:"768px"}} alt=""/>
+                <MoreInfo  />
+                </div>
+            </div>
+                
         )
     }
 }

@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form';
 import fire from '../../Services/fire';
 import './Registration.css';
 import MainPage from '../MainPage/MainPage';
-import {Redirect} from 'react-router-dom';
+import {Redirect, Link} from 'react-router-dom';
 import swal from 'sweetalert';
 
 let data;
@@ -165,7 +165,9 @@ SignUp = (e) =>{
                 <Button variant="primary" type="submit" onClick={this.SaveData} style={{marginLeft:"1px"}} >
                     Register
                 </Button>
-                <Button onClick={this.close} className="float-right btn btn-danger">Close</Button>
+                <Button onClick={this.close} className="float-right btn btn-danger" style={{background:"#fc6667"}}>Close</Button>
+                <hr/>
+                <Link to="/Login" style={{marginLeft:"170px"}}>Click here to Login</Link>
             </Form>
           </Modal.Body>
         </Modal>

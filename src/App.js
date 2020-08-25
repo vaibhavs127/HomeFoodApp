@@ -13,15 +13,12 @@ import Payment from "./components/Payment/Payment";
 import './App.css';
 import HotelInfo from "./components/Header/HotelInfo";
 import Body from "./components/Body/Body";
-import {Provider} from 'react-redux';
-import store from './Redux/Store/Store';
 
 class App extends Component{
 
   render(){
     return(
       <BrowserRouter>
-      <Provider store={store}>
           
       <div>
           <Switch>
@@ -39,7 +36,6 @@ class App extends Component{
             <Route path="/Body" component={Body} />                                                         
           </Switch> 
       </div>
-      </Provider>
     </BrowserRouter>
     );
   }

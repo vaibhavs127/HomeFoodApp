@@ -19,7 +19,7 @@ export function getNameFromZomato(query, latitude, longitude) {
     if (docs.status === 200) {
       return docs.json();
     }
-    throw new Error("Something went wrong contact developer");
+    throw new Error("Not Found");
   });
 }
 
@@ -34,6 +34,6 @@ export function getHotelInfoFromId(id) {
     if (docs.status === 200) {
       return docs.json();
     }
-    throw new Error("Something went wrong contact developer");
+    throw new Error("Not found");
   });
 }

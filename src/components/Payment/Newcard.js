@@ -102,7 +102,7 @@ class Newcard extends Component{
                                         <input className="cvv tc input" type="text" placeholder="e.g. 123456789456" required /><br/>
                                         
                                         <label className="tc input">Enter Expiry Date</label>
-                                        <input className="cvv tc input" type="date" placeholder="e.g. 6/20" required /><br/>
+                                        <input className="cvv tc input" type="text" placeholder="e.g. 6/20" required /><br/>
 
                                         <label className="tl w-30 input">Select Card Type</label>
                                         

@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { useLocation, Link } from "react-router-dom";
 import { getNameFromZomato } from "../../Services/service";
-import style from "../../components/SearchForm/SearchForm.module.css";
+import style from "../../components/SearchForm/SearchForm1.css";
 import './SearchResult.css';
 
 function SearchResults() {
@@ -26,7 +26,7 @@ function SearchResults() {
         <div className="col-md-12">
               <nav className="navbar navbar-expand-lg navbar-light bg-dark">
                 <a className="navbar-brand text-danger font-weight-bold" href="#">Home Food</a>
-                <a className="navbar-brand text-danger font-weight-bold" href="#" style={{marginLeft:"1080px"}}>Logout</a>
+                <Link className="navbar-brand text-danger font-weight-bold" to="/" style={{marginLeft:"1080px"}}>Logout</Link>
                 <button
                   className="navbar-toggler bg-danger"
                   type="button"

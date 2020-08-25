@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { getHotelInfoFromId } from "../../Services/service";
 import "./Hotelinfo.css"
-import {  useLocation, Link } from "react-router-dom";
 import {BsStarFill} from "react-icons/bs";
 
 export function HotelInfo() {

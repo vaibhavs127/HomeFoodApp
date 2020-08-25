@@ -1,0 +1,66 @@
+body{
+background: #1f9f7c;
+}
+
+/* LIST SECTION */
+
+
+.ListItemWrapper {
+  width: 60%;
+  padding: 30px;
+  margin-left:220px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 60px;
+  list-style-type: none;
+}
+
+.List img {
+  width: 100%;
+  height: 150px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hover1:hover
+{
+  background-color: #DDDDDD;
+  box-shadow: 0 0.3px 0.9px rgba(0, 0, 0, .12), 0 1.6px 3.6px rgba(0, 0, 0, .12);
+}
+
+@media (max-width: 599px) {
+    .ListItemWrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.ListTitle {
+  margin: 16px 0;
+  line-height: 24px;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+.ListItem {
+  padding: 16px;
+  border: 5px solid #fd6768;
+  border-radius: 10px;
+  background: #fff1dc;
+  position: relative;
+  cursor: pointer;
+  transform: scale(1);
+}
+
+#img:hover {
+    background-color: #DDDDDD;
+    box-shadow: 0 0.3px 0.9px rgba(0, 0, 0, .12), 0 1.6px 3.6px rgba(0, 0, 0, .12);
+}
+
+.ListLink {
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}

@@ -6,6 +6,8 @@ import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import MainPage from '../MainPage/MainPage';
 import swal from 'sweetalert';
+// import {GoogleLogin} from 'react-google-login';
+import './Login.css';
 
 
 class Login extends Component{
@@ -81,13 +83,20 @@ class Login extends Component{
     this.setState({ showModal: false });
   }
 
+//  responseGoogle=(response)=>{
+    
+//       console.log(response);
+//   };
+
   render() {
+    
+    
   
     const { redirect } = this.state;
     if (redirect) {
        return <Redirect to='/SearchForm'/>;
      }
-
+     
     return (
       <div>
         <MainPage />
@@ -111,12 +120,22 @@ class Login extends Component{
                 <Form.Group controlId="formBasicCheckbox">
                     <Form.Check type="checkbox" label="Remember me" />
                 </Form.Group>
-                <Button variant="primary" type="submit" onClick={this.Login} style={{marginLeft:"1px"}} >
+                <Button variant="primary" type="submit" onClick={this.Login} style={{marginLeft:"1px"}}  block>
                     Login
                 </Button>
-                <Button onClick={this.close} className="float-right btn btn-danger">Close</Button>
+                <Button onClick={this.close} className="float-right btn btn-danger" id="hover" style={{background:"#fc6667"}} block>Close</Button>
+                
+                {/* <Button variant="secondary" size="lg" block style={{marginLeft:"1px"}}>
+                <GoogleLogin
+                  clientId="15128399311-0m57vgppfcjslb56voj046m6loirvs8b.apps.googleusercontent.com"
+                  buttonText="Login"
+                  onClick={this.responseGoogle}
+                  size="lg"
+                  block
+                  />
+                  </Button> */}
                 <hr/>
-                <Link to="/Registration">Don't have account? Click here</Link>
+                <Link to="/Registration" style={{marginLeft:"130px"}}>Don't have account? Click here</Link>
             </Form>
             
           </Modal.Body>

@@ -3,6 +3,8 @@ import { useLocation, Link } from "react-router-dom";
 import { getNameFromZomato } from "../../Services/service";
 import style from "../../components/SearchForm/SearchForm1.css";
 import './SearchResult.css';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
 function SearchResults() {
   const params = useLocation();
@@ -48,36 +50,35 @@ function SearchResults() {
       <img src={require('../../Images/5.jpg')} style={{marginTop:"260px",position:"fixed" ,left:"1158px"}} alt=""/>
       <img src={require('../../Images/2.jpg')} style={{marginTop:"395px",position:"fixed" ,left:"1158px"}} alt=""/>
       <img src={require('../../Images/3.jpg')} style={{marginTop:"550px",position:"fixed" ,left:"1158px"}} alt=""/>
-      <div className="container" style={{marginTop:"3%",marginLeft:"10px" , background:"#1f9f7c", borderRadius:"20px", border:"5px solid black"}}>
+      <div className="container" style={{marginTop:"3%",marginLeft:"10px" , background:"#cccccc", borderRadius:"20px", border:"5px solid black"}}>
       
-      <div className="row" id="mar" >
+      <div   >
                 
-                <div className="col-md-12" >
-                    <div className="row" id="all" >
+                <div >
+                    <div >
                       {results.map((result) => {
                         const restaurant = result.restaurant;
                         return (
-                          <div className="col-md-4 "  style={{marginTop:"3%"  }} height="100%" width="100%" >
+                          <div style={{display: "inline-block"}}>
                           
                           <Link 
                             to={`/hotel/${restaurant.id}`}
-                            className={style.ListLink}
                             key={result.restaurant.id}
                           >
                             
-                          <div className="hover1" style={{border:"5px solid #fd6768" , background:"#fff1dc", borderRadius:"10px"}}>
-                            
-                            {restaurant.featured_image && (
-                                <img src={restaurant.featured_image} alt="No Image Available" height="100%" width="100%" />
-                              )}
-                                <hr/>
+                          <Card style={{ width: '18rem' , height:'23rem' ,marginLeft:"60px",background:"white" }}>
+                                <Card.Img variant="top" src={restaurant.featured_image}  height="150px"/>
+                              
+                                <Card.Body >
+                                  <Card.Title style={{marginLeft:"-290px" ,marginTop:"160px"}}>{restaurant.name}</Card.Title>
+                                    <Card.Text style={{marginLeft:"-290px" ,marginTop:"30px"}}>
+                                      Ratings: {restaurant.user_rating.rating_text}
+                                    </Card.Text>
+                                    <Button variant="primary"style={{marginLeft:"-215px" ,marginTop:"20px"}}>Order Food</Button>
                                 
-                                <div  style={{paddingLeft:"2%"}}>
-                                  <h4 className="card-title">{restaurant.name}</h4>
-                                  <h6 className="badge badge-success">Ratings: {restaurant.user_rating.rating_text}</h6>
-                                  </div>  
-                             
-                            </div>
+                                  </Card.Body>
+                                  
+                            </Card>
                         
                             
                           </Link>

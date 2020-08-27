@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import SocialFollow from './SocialFollow';
 import MoreInfo from './MoreInfo';
+import Footer from './Footer';
 import swal from 'sweetalert';
 import './MainPage.css';
 
@@ -18,7 +19,7 @@ class MainPage extends Component {
 
     render() {
         return (
-            <div>
+        <div>
             <div className="MainImg">
                     <h3 className="Header">Home Food</h3>
                 <div className="NavBar">
@@ -34,10 +35,14 @@ class MainPage extends Component {
                 
             </div> 
             <div>
-                <img src={require('../../Images/paymentback.jpg')} style={{backgroundSize:"cover",weight:"9%",height:"768px"}} alt=""/>
+                <img src={require('../../Images/paymentback.jpg')} style={{backgroundSize:"cover",width:"100%",height:"718px"}} alt=""/>
                 <MoreInfo  />
-                </div>
             </div>
+                <div>
+                   <Footer />
+                </div>
+        </div>
+            
                 
         )
     }

@@ -1,0 +1,103 @@
+
+.footer_widget
+{
+	background-color: rgb(37, 36, 36);
+	color: white;
+	height: auto;
+	width: 100%;
+}
+.footer_widget .location li
+{
+	list-style-type: none;
+	padding: 5px;
+	margin-left: 15px;
+
+}
+.location h4
+{
+	margin-left: 20px;
+	padding-top: 5%;
+	font-size: 30px;
+}
+.footer_widget .company li
+{
+	list-style-type: none;
+	padding: 5px;
+	margin-left: 255px;	
+	padding-left: 88px;
+	color: white;
+}
+.company a
+{
+	text-decoration: none;
+}
+.company h4
+{
+	margin-left: 260px;
+	font-size: 30px;
+	padding-left: 80px;
+	margin-top: -200px;
+} 
+.footer_widget .Support li
+{
+	list-style-type: none;
+	padding: 5px;
+	margin-left: 640px;	
+	color: white;
+}
+.Support a
+{
+	text-decoration: none;
+}
+.Support h4
+{
+	margin-left: 640px;
+	font-size: 30px;
+	margin-top: -178px;
+}
+.footer_widget .studio
+{
+	padding: 5px;
+	margin-left: 500px;	
+	color: white;
+}
+.studio p
+{
+	color: white;
+	margin-left: 470px;
+	margin-top: -3px;
+	white-space: pre-line;
+}
+.studio h4
+{
+	color: white;
+	margin-left: 470px;
+	font-size: 30px;
+	margin-top: -153px;
+} 
+.rights
+{
+	text-align: center;
+	padding: 5px;
+	padding-top: 80px;
+}
+
+.footer_widget .location ul li:hover
+{
+    cursor:pointer;
+    background-color:rgb(37, 36, 36);
+    color:white;
+}
+.footer_widget .company ul li:hover
+{
+    cursor:pointer;
+    background-color:rgb(37, 36, 36);
+    color:white;
+}
+
+.footer_widget .Support ul li:hover
+{
+    cursor:pointer;
+    background-color:rgb(37, 36, 36);
+    color:white;
+}

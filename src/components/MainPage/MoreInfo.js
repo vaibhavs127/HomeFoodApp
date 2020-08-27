@@ -12,7 +12,7 @@ class MoreInfo extends Component {
 
     render() {
         return (
-            <div className="wow bounceIn" data-wow-duration="2s" data-wow-delay="2s" style={{display:"flex", marginTop:"-850px"}}>
+            <div className="wow bounceIn" data-wow-duration="2s" data-wow-delay="2s" style={{display:"flex", marginTop:"-750px"}}>
             
                 <Card  style={{ width: '18rem' , height:'23rem' ,marginLeft:"60px",background:"white" }} >
                                 <Card.Img variant="top" src="https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Waagmi_Soni/Gralic_Crust_Veggie_Pizza.jpg"  height="150px"/>
@@ -66,8 +66,8 @@ class MoreInfo extends Component {
                                   </Card.Body>
                                   
                             </Card>
-                            
             </div>
+            
         )
     }
 }

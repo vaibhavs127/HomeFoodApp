@@ -5,6 +5,7 @@ import style from "../../components/SearchForm/SearchForm1.css";
 import './SearchResult.css';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import ReactImageFallback from 'react-image-fallback';
 
 function SearchResults() {
   const params = useLocation();
@@ -67,7 +68,8 @@ function SearchResults() {
                           >
                             
                           <Card style={{ width: '18rem' , height:'23rem' ,marginLeft:"60px",background:"white" }}>
-                                <Card.Img variant="top" src={restaurant.featured_image}  height="150px"/>
+                                <Card.Img variant="top" src={restaurant.featured_image}   height="150px"/>
+                                
                               
                                 <Card.Body >
                                   <Card.Title style={{marginLeft:"-290px" ,marginTop:"160px"}}>{restaurant.name}</Card.Title>

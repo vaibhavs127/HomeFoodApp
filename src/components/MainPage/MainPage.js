@@ -25,7 +25,7 @@ class MainPage extends Component {
                 <div className="NavBar">
                     <ul>
                         <li>Search</li>
-                        <li>About</li>
+                        <li><Link to="/AboutUs" style={{color:"black"}}>About</Link></li>
                         <li>Contact Us</li>
                     </ul>
                 </div>

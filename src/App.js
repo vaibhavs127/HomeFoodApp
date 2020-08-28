@@ -10,6 +10,7 @@ import MainPage from './components/MainPage/MainPage';
 import SearchForm from './components/SearchForm/SearchForm';
 import SearchResults from "./Page/SearchResults/SearchResults";
 import Payment from "./components/Payment/Payment";
+import AboutUs from "./components/AboutUs/AboutUs";
 import './App.css';
 import HotelInfo from "./components/Header/HotelInfo";
 import Body from "./components/Body/Body";
@@ -22,7 +23,9 @@ class App extends Component{
           
       <div>
           <Switch>
-            <Route exact path="/" component={MainPage} /> 
+            <Route exact path="/" component={MainPage} />
+            <Route path="/AboutUs" >  
+            <AboutUs /></Route>
             <Route path="/Login" component={Login} /> 
             <Route path="/Registration" component={Registration} >
             <Registration /></Route>

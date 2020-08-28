@@ -40,7 +40,7 @@ export default function AboutUs() {
                                 </div>
                                 <div className="feature-content">
                                     <h2>Vaibhav Shinde</h2>
-                                    <h5>Full Stack Developer</h5>
+                                    <h5>Front End Developer</h5>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ export default function AboutUs() {
                                 </div>
                                 <div className="feature-content">
                                     <h2>Shubham Vibhute</h2>
-                                    <h5>Full Stack Developer</h5>
+                                    <h5>Front End Developer</h5>
                                 </div>
                             </div>
                         </div>
@@ -62,7 +62,7 @@ export default function AboutUs() {
                                 </div>
                                 <div className="feature-content">
                                     <h2>Shivani Dinde</h2>
-                                    <h5>UI Developer</h5>
+                                    <h5>Front End Developer</h5>
                                 </div>
                             </div>
                         </div>
@@ -84,7 +84,7 @@ export default function AboutUs() {
                                 </div>
                                 <div className="feature-content">
                                     <h2>Sneha Hanchate</h2>
-                                    <h5>UI Developer</h5>   
+                                    <h5>Front End Developer</h5>   
                                 </div>
                             </div>
                         </div>

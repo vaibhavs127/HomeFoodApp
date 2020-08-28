@@ -1,32 +1,33 @@
 .categories{
     /* background-color: blue; */
     display: flex;
-    border-radius: 5px;
     margin-left: 0;
     flex-direction: column;
-    width: 26%;
+    width: 23%;
     color: #fd6768;
     font-weight:700;
-    height: 200px;
-    border: 2px solid black;
+    height: 530px;
     position: fixed;
     /* overflow-wrap: break-word; */
-    background-color: #1f9f7c; /*green*/
+    background-color:  #ffebe6; /*green*/
+
+
 }
 #heading{
-    background-color: #fff1dc; /*lightwhite*/
+    background-color: #1f9f7c; /*lightwhite*/
     font-size: 20px;
     text-align:center;
     color:black;
 }
 #listOfCategories{
-    overflow-y: scroll;
+    line-height:33px;
+    padding-top:12px;
 }
 li{
     text-decoration: none;
     list-style: none;
     justify-content: center;
-    color:#fff1dc; /*lightwhite*/
+    color:black; /*lightwhite*/
 }
 li:hover{
     background-color:#fd6768; 

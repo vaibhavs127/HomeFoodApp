@@ -182,9 +182,7 @@ check=()=>{
                         <div className="Vegbox">
                             <input onClick ={this.check} id="VegCheckbox" type="checkbox"/>Veg Only
                         </div>
-                        <div className="Favourate">
-                            <label id="vegOnly">Favourate</label>      
-                        </div>
+                        
                 </div>
 
                 <div className="cuisine">
